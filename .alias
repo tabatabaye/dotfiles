@@ -7,6 +7,8 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 alias code="code-fb"
+alias cls="clear"
+
 alias icc="cd ~/configerator/source/integrity_crawler"
 alias ics="cd ~/fbsource/fbcode/integrity_crawler/web_browser/fbcd/server"
 alias icw="cd ~/www/flib/integrity_crawler"
