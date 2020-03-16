@@ -10,10 +10,10 @@ alias code="code-fb"
 alias code1="code-fb ~/www/flib/intern/site/x/bootcamplabs_submissions/yimot/__tests__/XInternFirstWebpageYimotControllerTest.php"
 alias cls="clear"
 
-alias iccf="cd ~/configerator/source/integrity_crawler"
+alias icc="cd ~/configerator/source/integrity_crawler"
 alias ics="cd ~/fbsource/fbcode/integrity_crawler/web_browser/fbcd/server"
 alias icw="cd ~/www/flib/integrity_crawler"
-alias iccs="cd ~/fbsource/fbcode/integrity_crawler/developer/"
+alias icd="cd ~/fbsource/fbcode/integrity_crawler/developer/"
 
 alias fix='fixmyserver --yes'
 alias refresh='source ~/.bash_profile'
