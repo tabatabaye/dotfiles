@@ -1,0 +1,12 @@
+{
+	"dsphp": {
+		//"scope": "python",
+		"prefix": "dsphp",
+		"body": "slogb(__METHOD__ . ' start');"
+	},
+	"dephp": {
+		//"scope": "python",
+		"prefix": "dephp",
+		"body": "slogb(__METHOD__ . ' end');"
+	}
+}
