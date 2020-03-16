@@ -7,8 +7,45 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 alias code="code-fb"
+alias code1="code-fb ~/www/flib/intern/site/x/bootcamplabs_submissions/yimot/__tests__/XInternFirstWebpageYimotControllerTest.php"
 alias cls="clear"
 
 alias icc="cd ~/configerator/source/integrity_crawler"
 alias ics="cd ~/fbsource/fbcode/integrity_crawler/web_browser/fbcd/server"
 alias icw="cd ~/www/flib/integrity_crawler"
+
+alias fix='fixmyserver --yes'
+alias refresh='source ~/.bash_profile'
+alias hp='hphpd -h localhost'
+
+# customized egrep (add string at the end, e.g. egphp "\WSomething"
+alias egcpp='find . -name "*.cpp" -o -name "*.h" | xargs egrep -n --color'
+alias egphp='find . -name "*.php" -o -name "*.phpt" | xargs egrep -n --color'
+
+# Mercurial
+# Eliminate most recent commit
+alias stripdrop='hg strip -r -1'
+# Revert a file to its original version
+alias revert='hg revert -r .~1'
+
+function diff_fn() {
+  if [ -z $1 ]
+  then
+    hg diff -r .^
+  else
+    x=$(hg book | grep -e "$1 ")
+    hg diff -c ${x: -12}
+  fi
+}
+
+alias diff=diff_fn
+
+function only() {
+  if [ -z $1 ]
+  then
+    jf preview --no-sandcastle
+  else
+    x=$(hg book | grep -e "$1 ")
+    hg diff -c ${x: -12} | jf preview --no-sandcastle
+  fi
+}
