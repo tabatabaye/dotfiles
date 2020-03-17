@@ -14,6 +14,7 @@ alias icc="cd ~/configerator/source/integrity_crawler"
 alias ics="cd ~/fbsource/fbcode/integrity_crawler/web_browser/fbcd/server"
 alias icw="cd ~/www/flib/integrity_crawler"
 alias icd="cd ~/fbsource/fbcode/integrity_crawler/developer/"
+alias icl="cd ~/www/flib/intern/logging/logger/configs/ws/"
 
 alias fix='fixmyserver --yes'
 alias refresh='source ~/.bash_profile'
