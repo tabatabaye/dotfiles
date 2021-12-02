@@ -21,6 +21,9 @@ alias icd="cd ~/fbsource/fbcode/integrity_crawler/developer/"
 # Logger
 alias icl="cd ~/www/flib/intern/logging/logger/configs/ws/"
 
+# CFS WWW
+alias cfw="cd ~/www/flib/intern/privacy/closed_form_system/"
+
 alias fix='fixmyserver --yes'
 alias refresh='source ~/.bash_profile'
 alias hp='hphpd -h localhost'
