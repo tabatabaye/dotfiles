@@ -21,8 +21,20 @@ alias icd="cd ~/fbsource/fbcode/integrity_crawler/developer/"
 # Logger
 alias icl="cd ~/www/flib/intern/logging/logger/configs/ws/"
 
-# CFS WWW
-alias cfw="cd ~/www/flib/intern/privacy/closed_form_system/"
+# PZM WWW
+alias pzw="cd ~/www/flib/intern/privacy/closed_form_system/"
+
+# PZM Script
+alias pzs="cd ~/www/flib/intern/scripts//privacy/closed_form_system/"
+
+# PZM Ents
+alias pze="cd ~/www/flib/intern/entity//privacy_assets/"
+
+# PZM Verification
+alias pzv="cd ~/www/flib/intern/evidence/evidence_collection/verification/closed_form_systems/"
+
+
+# PZM Schema
 
 alias fix='fixmyserver --yes'
 alias refresh='source ~/.bash_profile'
