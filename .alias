@@ -33,6 +33,9 @@ alias pze="cd ~/www/flib/intern/entity//privacy_assets/"
 # PZM Verification
 alias pzv="cd ~/www/flib/intern/evidence/evidence_collection/verification/closed_form_systems/"
 
+# PZM Config
+alias pzc="cd ~/configerator/source/privacy/policy_zone_manager/"
+
 
 # PZM Schema
 
